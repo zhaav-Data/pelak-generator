@@ -1,0 +1,3 @@
+tqdm
+persian_names
+pandas
