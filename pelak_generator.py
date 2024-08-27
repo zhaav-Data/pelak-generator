@@ -27,7 +27,7 @@ def generate_plate_texts(total_count, chunk_size):
             rast = str(random.randint(100,990))
             car_model_ = str(random.choice(models))
 
-            plate_text = (chap + ',' + random_char['en'] + ',' + random_char['fa'] + ',' + rast + ',' + car_model_ + ','  + str(random.randint(18,80)) + ',' + firstname_fa('r') + ',' + lastname_fa())
+            plate_text = (chap + ',' + random_char['en'] + ',' + random_char['fa'] + ',' + rast + ',' + car_model_ + ','  + str(random.randint(18,80)) + ',' + firstname_fa('r') + ',' + lastname_fa()) + ',' + str(random.randint(80,130))
 
             chunk.append([plate_text])
 
